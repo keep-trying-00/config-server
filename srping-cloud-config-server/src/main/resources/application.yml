@@ -1,0 +1,10 @@
+spring:  
+  application:    
+    name: config-server  
+  cloud:    
+    config:      
+      server:        
+        git:          
+          uri: https://github.com/keep-trying-00/config-center # 配置git仓库的地址          
+server:  
+  port: 8888
